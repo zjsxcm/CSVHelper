@@ -117,22 +117,3 @@ class ImapDownloader(BaseDownloader):
 
     def __init__(self):
         pass
-
-# downloader = Pop3Downloader()
-# resp, msg = downloader.Connect({"address":"pop.163.com", "account":"zhengdu0303@163.com", "password":"Zaq123456"})
-# if resp > 0:
-#     print("connect success!")
-#     state, mailList = downloader.GetMailList(5)
-#     if state > 0:
-#         print("get mails success!")
-#         for mail in mailList:
-#             parsed = mail["Parsed"]
-#             if parsed:
-#                 print("From: %s\nTo: %s\nSubject: %s\nAttachments:" % (mail["From"], mail["To"], mail["Subject"]))
-#                 for a in mail["Attachments"]:
-#                     print("\t%s" % (a[1]))
-#             else:
-#                 print(mail["Err"])
-#     else:
-#         print(mailList)
-#     downloader.Disconnect()
