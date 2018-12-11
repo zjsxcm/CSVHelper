@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>csv.png</file>
+    <file>connected.png</file>
+    <file>unconnect.png</file>
+    <file>about.png</file>
+    <file>read.png</file>
+    <file>unread.png</file>
+  </qresource>
+</RCC>
